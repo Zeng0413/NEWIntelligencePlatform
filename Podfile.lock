@@ -1,0 +1,106 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.3)
+  - HMQRCodeScanner (1.0.6)
+  - IQKeyboardManager (6.5.4)
+  - JCore (2.1.8)
+  - JPush (3.2.8):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - KSYMediaPlayer (3.0.5)
+  - lottie-ios_Oc (0.0.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.3.1)
+  - SDWebImage (5.4.0):
+    - SDWebImage/Core (= 5.4.0)
+  - SDWebImage/Core (5.4.0)
+  - SocketRocket (0.5.1)
+  - TYAlertController (1.2.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+  - ZFPlayer (3.2.15):
+    - ZFPlayer/Core (= 3.2.15)
+  - ZFPlayer/AVPlayer (3.2.15):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.15):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.15)
+  - ZFPlayer/KSYMediaPlayer (3.2.15):
+    - KSYMediaPlayer
+    - ZFPlayer/Core
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - CocoaAsyncSocket
+  - HMQRCodeScanner
+  - IQKeyboardManager
+  - JPush
+  - lottie-ios_Oc
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - SocketRocket
+  - TYAlertController
+  - YYKit
+  - ZFPlayer (~> 3.0)
+  - ZFPlayer/AVPlayer (~> 3.0)
+  - ZFPlayer/ControlView (~> 3.0)
+  - ZFPlayer/KSYMediaPlayer
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - KSYMediaPlayer
+    - YYKit
+    - ZFPlayer
+  trunk:
+    - AFNetworking
+    - CocoaAsyncSocket
+    - HMQRCodeScanner
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - lottie-ios_Oc
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - SocketRocket
+    - TYAlertController
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  HMQRCodeScanner: 8db2d317c0e5cbe3b4709fe2b9f26c107d66554e
+  IQKeyboardManager: 72b359cd7e777e3a984cedbe05f8da45320cbb63
+  JCore: a7f1dead960d77a97717c73ea8b0aa5b33706491
+  JPush: 8ce888d6dedfa417e90c8b6bc87405a16ce2e699
+  KSYMediaPlayer: bcf36132cf3f24e4f49cbb4bb74cc160668397ef
+  lottie-ios_Oc: 246311aa2a6106fe03cb34e3e30f8daf7e1e7d9a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  SDWebImage: 5bf6aec6481ae2a062bdc59f9d6c1d1e552090e0
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  TYAlertController: c121090edb0bea7426f987da94cdddd81eef4231
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+  ZFPlayer: b56371acefedad94678503a28a6d34820cfd0da3
+
+PODFILE CHECKSUM: 371befbc48ae42b871decefa5addd31537dad345
+
+COCOAPODS: 1.8.4

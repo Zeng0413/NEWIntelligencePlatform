@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="OCMessageNotifCell">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="76.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVf-vW-gsf">
+                        <rect key="frame" x="20" y="22.5" width="32" height="32"/>
+                        <color key="backgroundColor" red="1" green="0.55294117647058827" blue="0.58039215686274503" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="36m-tM-DJo"/>
+                            <constraint firstAttribute="height" constant="32" id="GLY-Rq-51r"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电磁场与电磁波第一章.ppt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2Q-Yo-tKl">
+                        <rect key="frame" x="64" y="31.5" width="283" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="fuw-Lz-gI1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YYY-My-wMx">
+                        <rect key="frame" x="20" y="75.5" width="327" height="1"/>
+                        <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="nuS-dc-fRq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YYY-My-wMx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="G4Y-qX-FHJ"/>
+                    <constraint firstItem="e2Q-Yo-tKl" firstAttribute="leading" secondItem="vVf-vW-gsf" secondAttribute="trailing" constant="12" id="RJI-hK-dSl"/>
+                    <constraint firstAttribute="trailing" secondItem="e2Q-Yo-tKl" secondAttribute="trailing" constant="20" id="dGi-31-ivZ"/>
+                    <constraint firstAttribute="bottom" secondItem="YYY-My-wMx" secondAttribute="bottom" id="gYe-GO-oqJ"/>
+                    <constraint firstItem="e2Q-Yo-tKl" firstAttribute="centerY" secondItem="vVf-vW-gsf" secondAttribute="centerY" id="kBr-Nl-RBV"/>
+                    <constraint firstAttribute="trailing" secondItem="YYY-My-wMx" secondAttribute="trailing" constant="20" id="oSL-GZ-h2A"/>
+                    <constraint firstItem="vVf-vW-gsf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="qX0-6q-kXe"/>
+                    <constraint firstItem="vVf-vW-gsf" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="r5n-Tf-AME"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconH" destination="GLY-Rq-51r" id="N8l-7i-mP0"/>
+                <outlet property="iconLab" destination="vVf-vW-gsf" id="xWE-Z2-AvQ"/>
+                <outlet property="iconW" destination="36m-tM-DJo" id="Q25-4w-ey5"/>
+                <outlet property="titleLab" destination="e2Q-Yo-tKl" id="ybF-LZ-c4H"/>
+            </connections>
+            <point key="canvasLocation" x="-465.94202898550731" y="151.67410714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="72" id="KGk-i7-Jjw" customClass="OCSystemLogCell">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="383" height="71.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="李华湖" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2g-VD-Ay4">
+                        <rect key="frame" x="0.0" y="0.0" width="96" height="70.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="处理用户工单23948计算机其他故障" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cKk-S0-SP0">
+                        <rect key="frame" x="191.5" y="0.0" width="96" height="70.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2019/03/21 07:30" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sMk-8H-PgN">
+                        <rect key="frame" x="287.5" y="0.0" width="95.5" height="70.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kha-Sc-95Y">
+                        <rect key="frame" x="20" y="70.5" width="343" height="1"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="l3a-lo-xUM"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="统计分析系统" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pDm-ZI-BYc">
+                        <rect key="frame" x="96" y="0.0" width="95.5" height="70.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="sMk-8H-PgN" secondAttribute="trailing" id="6jq-R4-MMO"/>
+                    <constraint firstItem="pDm-ZI-BYc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6vE-0m-3oC"/>
+                    <constraint firstItem="t2g-VD-Ay4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7dm-WF-eXs"/>
+                    <constraint firstItem="t2g-VD-Ay4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7tq-A4-MF4"/>
+                    <constraint firstItem="cKk-S0-SP0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Cpw-YX-ZLV"/>
+                    <constraint firstItem="kha-Sc-95Y" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="DV0-9J-pQ0"/>
+                    <constraint firstAttribute="bottom" secondItem="kha-Sc-95Y" secondAttribute="bottom" id="KZM-EY-XlM"/>
+                    <constraint firstAttribute="bottom" secondItem="t2g-VD-Ay4" secondAttribute="bottom" constant="1" id="QCi-Z3-lwi"/>
+                    <constraint firstAttribute="bottom" secondItem="pDm-ZI-BYc" secondAttribute="bottom" constant="1" id="QIB-DP-2x8"/>
+                    <constraint firstItem="sMk-8H-PgN" firstAttribute="leading" secondItem="cKk-S0-SP0" secondAttribute="trailing" id="Znf-E8-Ryo"/>
+                    <constraint firstAttribute="bottom" secondItem="sMk-8H-PgN" secondAttribute="bottom" constant="1" id="bnM-rw-LFp"/>
+                    <constraint firstItem="pDm-ZI-BYc" firstAttribute="width" secondItem="t2g-VD-Ay4" secondAttribute="width" id="byD-BZ-2vo"/>
+                    <constraint firstItem="sMk-8H-PgN" firstAttribute="width" secondItem="t2g-VD-Ay4" secondAttribute="width" id="d7P-XU-JxJ"/>
+                    <constraint firstAttribute="bottom" secondItem="cKk-S0-SP0" secondAttribute="bottom" constant="1" id="jX7-Tt-qbk"/>
+                    <constraint firstItem="pDm-ZI-BYc" firstAttribute="leading" secondItem="t2g-VD-Ay4" secondAttribute="trailing" id="mJk-C5-Cb8"/>
+                    <constraint firstItem="cKk-S0-SP0" firstAttribute="width" secondItem="t2g-VD-Ay4" secondAttribute="width" id="sKo-fM-Bf5"/>
+                    <constraint firstItem="sMk-8H-PgN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="t2Y-Vf-kwL"/>
+                    <constraint firstItem="cKk-S0-SP0" firstAttribute="leading" secondItem="pDm-ZI-BYc" secondAttribute="trailing" id="tHv-m6-hsd"/>
+                    <constraint firstAttribute="trailing" secondItem="kha-Sc-95Y" secondAttribute="trailing" constant="20" id="vdv-r9-gy4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="label1" destination="t2g-VD-Ay4" id="4NJ-Ls-Dr6"/>
+                <outlet property="label3" destination="cKk-S0-SP0" id="C7C-fC-2vB"/>
+                <outlet property="lable2" destination="pDm-ZI-BYc" id="MMH-wC-66O"/>
+                <outlet property="timeLab" destination="sMk-8H-PgN" id="aWj-x4-gzm"/>
+            </connections>
+            <point key="canvasLocation" x="-1049" y="127"/>
+        </tableViewCell>
+    </objects>
+</document>
